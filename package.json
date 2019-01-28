@@ -1,0 +1,13 @@
+{
+    "name": "semplice-client",
+    "version": "0.0.1",
+    "description": "Semplice client for frontend",
+    "main": "index.js",
+    "author": "Luis Vilches",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/semplicejs/client.git"
+    }
+  }
+  
