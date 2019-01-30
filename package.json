@@ -1,6 +1,6 @@
 {
     "name": "semplice-client",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Semplice client for frontend",
     "main": "index.js",
     "author": "Luis Vilches",

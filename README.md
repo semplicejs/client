@@ -35,6 +35,18 @@ semplice.io().send('send',{data:'recived'});
 | Function name | Description                    | type
 | ------------- | ------------------------------ | --------------------------------- |
 | `fetch(route,opts)`      | Fetch for Semplice API`s       | Function
-| `io().on(event,callback)`   | EventListener websocket    | Function
-| `io().send(event,data)`   |Send data websocket   | Function
+| `on(event,callback)`   | EventListener websocket    | Function
+| `send(event,data)`   | Send data websocket   | Function
+| `socketID().set(id)`   | Save new socketID    | Function
+| `socketID().get()`   | View socketID   | Function
+| `encodeBin(str)`   | Encode string to bin   | Function
+| `decodeBin(str)`   | Dencode bin to string   | Function
+
+
+###Defaults events
+
+| Event name | Description                    | type
+| ------------- | ------------------------------ | --------------------------------- |
+| `SUCCESS_CONECTION` | Returns the event when the connection is established | Event
+
 
